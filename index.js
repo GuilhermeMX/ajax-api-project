@@ -20,7 +20,7 @@ function login() {
     pass: $('#password').val()
   };
 
-  ajaxRequest('POST', 'login.php', data, function(response) {
+  ajaxRequest('POST', 'https://somma.dirai.com.br/avaliacao.php?login', data, function(response) {
     const section = document.getElementById("login_container");   
     var token = response.TOKEN; 
 
