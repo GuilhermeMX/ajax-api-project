@@ -141,3 +141,20 @@ th {
 .edit-form {
   display: none;
 }
+
+.form-box {
+  color: black;
+  display: none;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black;
+  margin: auto;
+}
+
+.form-box a {
+  background-color: #023345;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.6rem;
+  cursor: pointer;
+}

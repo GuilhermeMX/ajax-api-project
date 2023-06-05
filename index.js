@@ -101,6 +101,9 @@ function updateCorretoras() {
 }
 
 function deleteCorretora(id) {
+  const section = document.getElementById("form-box");
+  section.style.display = "block";
+
   $.ajax({
     url: 'https://somma.dirai.com.br/avaliacao.php?delete',
     method: 'DELETE',
