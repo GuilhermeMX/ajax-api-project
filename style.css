@@ -1,0 +1,143 @@
+@charset "UTF-8";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+}
+
+header {
+  background-color: #023345;
+  color: white;
+  height: 5.5rem;
+  display: flex;
+  padding: 0 2rem;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding: 3rem 0;
+  gap: 1rem;
+}
+
+#form-container {
+  color: black;
+  display: block;
+  justify-content: center;
+  text-align: center;
+  border: 1px solid black;
+  margin: auto;
+}
+
+#form-container a {
+  background-color: #023345;
+  color: white;
+  border-radius: 1rem;
+  padding: 0.6rem;
+  cursor: pointer;
+}
+
+button {
+  width: 10rem;
+  padding: 0.5rem;
+}
+
+.login-container {
+  position: relative;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  
+.login h1 {
+  text-align: center;
+  padding-bottom: 1rem;
+}
+  
+.login {
+  background-color: rgba(0, 0, 0, 0.6);
+  height: 15rem;
+  padding: 2rem 3rem 2rem 3rem;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  color: #fff;
+}
+  
+input {
+  padding: 15px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+}
+  
+.submitButton {
+  background-color: #023345;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 10px;
+  color: white;
+  font-size: 15px;
+}
+  
+.submitButton:hover {    
+  background-color: black;
+  cursor: pointer;
+}
+
+h4 {
+  margin-top: 1rem;
+  color: #696969;
+}
+  
+.listar {
+  background-color: #023345;
+  color: white;
+  padding: 0.7rem 0;
+  margin-bottom: 1rem;
+  border-radius: 1.1rem;
+  cursor: pointer;
+}
+
+#tableList {
+  padding: 3rem;
+  text-align: center;
+}
+
+#tableList h1 {
+  text-align: center;
+  padding-bottom: 1rem;
+  color: #023345;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #023345;
+}
+
+.edit-form {
+  display: none;
+}
