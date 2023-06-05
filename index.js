@@ -5,7 +5,7 @@ function ajaxRequest(method, url, data, successCallback, errorCallback) {
     data: JSON.stringify(data),
     headers: {
     'contentType': 'application/json',
-    'Authorization': 'Bearer eyJhbGciOiJIUzUxMiJ9.eyJpbnN0aXRl19.wSunuaC6iQkxEFcckDGzE3lFeI2lQXnFffy0FZWK8V-5945z1GMHzeeqknWajiT-F0wKlKKBZ7phfBBaLTfREA'
+    //'Authorization': ''
     },
     success: successCallback,
     error: errorCallback
